@@ -14,41 +14,47 @@ python3 -m venv env
 source env/bin/activate
 deactivate
 ```
+```
 Installing packages
 python3 -m pip install requests
-
+```
+```
 Installing specific versions
 python3 -m pip install requests==2.18.4
-
+```
+```
 To install the latest 2.x release of requests:
 python3 -m pip install requests>=2.0.0,<3.0.0
-
+```
+```
 To install pre-release versions of packages, use the --pre flag:
 python3 -m pip install --pre requests
-
+```
+```
 Installing from source-
 cd google-auth
 python3 -m pip install .
-
+```
+```
 Installing from local archives
 python3 -m pip install requests-2.18.4.tar.gz
-
-
+```
+```
 If you have a directory containing archives of multiple packages, you can tell pip to look for packages there and not to use the Python Package Index (PyPI) at all:
 python3 -m pip install --no-index --find-links=/local/dir/ requests
-
+```
+```
 If you want to download packages from a different index than the Python Package Index (PyPI), you can use the --index-url flag:
 python3 -m pip install --index-url http://index.example.com/simple/ SomeProject
-
+```
+```
 Upgrading packages
 python3 -m pip install --upgrade requests
-
+```
+```
 Installing for requirements.txt file
 python3 -m pip install -r requirements.txt
-
-
+```
+```
 Pip can export a list of all installed packages and their versions using the freeze command:
-
-
-
-
+```
