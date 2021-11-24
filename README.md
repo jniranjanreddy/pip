@@ -58,3 +58,6 @@ python3 -m pip install -r requirements.txt
 ```
 Pip can export a list of all installed packages and their versions using the freeze command:
 ```
+```
+python3 -m pip install -r requirements.txt -i <artifactory>
+```
